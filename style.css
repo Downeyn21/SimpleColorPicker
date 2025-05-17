@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    width: 400px;
+    background-color: rgb(43, 43, 43);
+    margin: 50px;
+}
+
+.titleContainer h3 {
+    margin-top: 0;
+}
+
+#clickNum {
+    border: solid black;
+    background-color: rgb(43, 43, 43);
+}
+
+button {
+    border-radius: 10px;
+    border: solid 2px;
+    width: 75px;
+    height: 35px;
+    margin: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#redClick {
+    background-color: red;
+}
+
+#blueClick {
+    background-color: blue;
+}
+
+#greenClick {
+    background-color: green;
+}
+
+#randomClick {
+    background: linear-gradient( 45deg, red, yellow, green, blue)
+}
+
+#clickNum {
+    width: 400px;
+    padding: 10px 0;
+    margin: 75px;
+    text-align: center;
+}
